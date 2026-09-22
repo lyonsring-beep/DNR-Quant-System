@@ -1,0 +1,30 @@
+{
+  "standing": "DERIVED_PROJECTION_ONLY",
+  "authority": {
+    "system": "ADVISORY / RESEARCH ONLY",
+    "live_trading": "NONE"
+  },
+  "source": "P6 E02-B03 Frozen RepositoryPathBinding Map",
+  "components": [
+    {"component_ref":"P6-LC-E02-B02-0001@r1","binding_ref":"P6-RPB-E02-B03-0001@r1","path":"src/dnr_quant/semantic/s01_strategy_capital/"},
+    {"component_ref":"P6-LC-E02-B02-0002@r1","binding_ref":"P6-RPB-E02-B03-0002@r1","path":"src/dnr_quant/semantic/s02_market_universe/"},
+    {"component_ref":"P6-LC-E02-B02-0003@r1","binding_ref":"P6-RPB-E02-B03-0003@r1","path":"src/dnr_quant/semantic/s03_feature_research/"},
+    {"component_ref":"P6-LC-E02-B02-0004@r1","binding_ref":"P6-RPB-E02-B03-0004@r1","path":"src/dnr_quant/semantic/s04_simulation/"},
+    {"component_ref":"P6-LC-E02-B02-0005@r1","binding_ref":"P6-RPB-E02-B03-0005@r1","path":"src/dnr_quant/semantic/s05_evidence/"},
+    {"component_ref":"P6-LC-E02-B02-0006@r1","binding_ref":"P6-RPB-E02-B03-0006@r1","path":"src/dnr_quant/semantic/s06_validation/"},
+    {"component_ref":"P6-LC-E02-B02-0007@r1","binding_ref":"P6-RPB-E02-B03-0007@r1","path":"src/dnr_quant/semantic/s07_suitability/"},
+    {"component_ref":"P6-LC-E02-B02-0008@r1","binding_ref":"P6-RPB-E02-B03-0008@r1","path":"src/dnr_quant/semantic/s08_recommendation/"},
+    {"component_ref":"P6-LC-E02-B02-0009@r1","binding_ref":"P6-RPB-E02-B03-0009@r1","path":"src/dnr_quant/integration/composition/"},
+    {"component_ref":"P6-LC-E02-B02-0010@r1","binding_ref":"P6-RPB-E02-B03-0010@r1","path":"src/dnr_quant/infra/acquisition/"},
+    {"component_ref":"P6-LC-E02-B02-0011@r1","binding_ref":"P6-RPB-E02-B03-0011@r1","path":"src/dnr_quant/infra/persistence/"},
+    {"component_ref":"P6-LC-E02-B02-0012@r1","binding_ref":"P6-RPB-E02-B03-0012@r1","path":"src/dnr_quant/infra/workflow/"},
+    {"component_ref":"P6-LC-E02-B02-0013@r1","binding_ref":"P6-RPB-E02-B03-0013@r1","path":"src/dnr_quant/infra/control/"},
+    {"component_ref":"P6-LC-E02-B02-0014@r1","binding_ref":"P6-RPB-E02-B03-0014@r1","path":"src/dnr_quant/infra/observability/"},
+    {"component_ref":"P6-LC-E02-B02-0015@r1","binding_ref":"P6-RPB-E02-B03-0015@r1","path":"web/"},
+    {"component_ref":"P6-LC-E02-B02-0016@r1","binding_ref":"P6-RPB-E02-B03-0016@r1","path":"src/dnr_quant/app/operator_api/"},
+    {"component_ref":"P6-LC-E02-B02-0017@r2","binding_ref":"P6-RPB-E02-B03-0017@r1","path":"src/dnr_quant/security/identity_holdout/"},
+    {"component_ref":"P6-LC-E02-B02-0018@r1","binding_ref":"P6-RPB-E02-B03-0018@r1","path":"src/dnr_quant/security/config_secrets/"},
+    {"component_ref":"P6-LC-E02-B02-0019@r1","binding_ref":"P6-RPB-E02-B03-0019@r1","path":"src/dnr_quant/security/recovery/"},
+    {"component_ref":"P6-LC-E02-B02-0020@r1","binding_ref":"P6-RPB-E02-B03-0020@r1","path":"src/dnr_quant/compute/runtime/"}
+  ]
+}

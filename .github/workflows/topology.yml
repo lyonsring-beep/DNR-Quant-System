@@ -1,0 +1,16 @@
+name: topology
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  architecture-topology:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+      - name: Verify P6 repository topology
+        run: python -m unittest tests.architecture.test_repository_topology

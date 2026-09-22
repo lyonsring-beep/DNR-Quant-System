@@ -1,0 +1,10 @@
+{
+  "standing": "DERIVED_PROJECTION_ONLY",
+  "rules": [
+    "Cross-component imports must use owner-controlled public surfaces.",
+    "Direct imports of another component internal surface are prohibited.",
+    "Shared code must remain non-semantic and non-authoritative.",
+    "Repository location does not create semantic or specification authority.",
+    "No code path may introduce live order, execution, transfer, or withdrawal authority."
+  ]
+}

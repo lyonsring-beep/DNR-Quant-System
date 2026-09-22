@@ -1,11 +1,11 @@
-name: topology
+name: p7-foundation
 
 on:
   push:
   pull_request:
 
 jobs:
-  architecture-topology:
+  foundation:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -14,3 +14,7 @@ jobs:
           python-version: "3.14"
       - name: Verify P6 repository topology
         run: python -m unittest tests.architecture.test_repository_topology
+      - name: Run P7 shared foundation tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests/unit -p "test_*.py"
